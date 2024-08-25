@@ -1,0 +1,447 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+.nav-parent{
+    display: flex;
+    
+    background-color: rgb(0, 0, 0);
+    opacity: 0.8;
+    color: whitesmoke;
+    /* padding: 10px; */
+    padding-top: 10px;
+}
+.nav-logo i{
+    font-size: 17px;
+}
+.nav-child{
+    margin: 0px auto;
+}
+.nav-child ul{
+    display: flex;
+    gap: 30px;
+}
+
+.nav-child li{
+    cursor: pointer;
+    list-style: none;
+    font-size: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header-img{
+    cursor: pointer;
+width: 100%;
+background-color: #f5f5f7;
+position: relative;
+
+}
+.header-img samp{
+    position: absolute;
+    text-align: center;
+    bottom: 1em;
+    right: 30em;
+
+
+}
+.header-img p{
+    font-size: 21px;
+    line-height: 1.19048;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #6e6e73;
+    margin-top: 10px;
+}
+.callout{
+    font-size: 21px;
+    line-height: 1.19048;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #6e6e73;
+    margin-top: 15px;
+}
+.header-img .link{
+    margin-top: 25px;
+    text-decoration: none;
+    
+      
+}
+
+.header-img .one:hover{
+    text-decoration: underline;
+    padding: 2px;
+     
+}
+.header-img .two:hover{
+    text-decoration: underline;
+    padding: 2px;
+     
+}
+.head-links{
+    display: flex;
+    font-size: 18px;
+    gap: 35px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #0367cc;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 5em;
+}
+/* .head-links:hover{
+    text-decoration: underline;
+} */
+.header-img samp h3 i{
+    font-size: 1.0em;
+}
+.header-img samp h3{
+    font-weight: 600;
+    font-size: 3em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.header-img img{
+    margin-left: 25em;
+
+}
+.iphone15pro{
+    width: 100%;
+    /* height: 30em; */
+background-color:#010101;
+position: relative;
+color: whitesmoke;
+cursor: pointer;
+}
+.iphone15pro img{
+    margin-left: 12em;
+    margin-top: 14em;
+
+}
+.iphone15pro span{
+position: absolute;
+right: 30em;
+top: 3em;
+text-align: center;
+}
+.iphone15pro samp h3{
+    font-weight: 600;
+    font-size: 3em;    
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.iphone15pro p{
+    font-size: 23px;
+    line-height: 1.19048;
+    font-weight: 500;
+    letter-spacing: .011em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 10px;    
+}
+.pro-links{
+display: flex;
+gap: 45px;
+margin-left: 5em;
+
+}
+.pro-links p{
+    font-size: 18px;
+}
+.links{
+    text-decoration: none;
+    /* margin-top: 10px; */
+   font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #258aea;
+    text-decoration: none;
+    
+}
+
+.on:hover{
+    text-decoration: underline;
+}
+.off:hover{
+    text-decoration: underline;
+}
+
+.NewCamera{
+ width: 100%;
+ cursor: pointer;
+ background-color: #f5f5f7;
+ position: relative;   
+}
+.NewCamera img{
+    margin-top: 20em;
+    margin-left: 3em;
+}
+.NewCamera span{
+    position: absolute;
+    right: 30em;
+    top: 3em;
+    text-align: center;
+}
+.NewCamera samp h3{
+    font-weight: 600;
+    font-size: 3em;    
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+}
+.NewCamera p{
+    font-size: 23px;
+    line-height: 1.19048;
+    font-weight: 500;
+    letter-spacing: .011em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 10px;   
+}
+.NewCamera .camera-links{
+ display: flex;
+ gap: 40px;
+ margin-left: 6em;   
+}
+
+.camera-links .links{
+    font-size: 15px;
+}
+
+.links p{
+    font-size: 18px;
+}
+.onn:hover{
+    text-decoration: underline;
+}
+.of:hover{
+    text-decoration: underline;
+}
+
+.grid-parent{
+    /* background-color: darkgrey; */
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 8px;
+    
+}
+
+.grid-child{
+    border: 2px solid lightcoral;
+    background-color: lightcoral;
+  width: 98%;
+    height: 32em;
+    margin: 0px auto;
+    margin-top: 10px;
+    z-index: 0;
+    position: relative;
+    cursor: pointer;
+}
+.grid-child img{
+    margin: 7em auto;
+}
+.grid-two{
+    background-color: black;
+    border-color: black;
+    color: white;
+}
+.grid-two span{
+    position: absolute;
+    right: 13em;
+    top: 2.5em;
+    text-align: center;
+}
+.grid-child span h3{
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.grid-child span h4{
+    line-height: 1.1;
+    color: brown;
+    margin-top: 5px;
+}
+.grid-para{
+    margin-top: 5px;
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: .016em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.grid-links{
+display: flex;
+justify-content: center;
+gap: 30px;
+margin-top: 12px;
+font-size: 17px;
+color:#258aea;
+}
+
+ .grid-three{
+    background-color: #fbfbfd;
+    border-color: #fbfbfd;
+    color: black;
+}
+
+
+.grid-three span{
+    position: absolute;
+    right: 13em;
+    top: 2.5em;
+    text-align: center;
+}  
+
+.grid-four{
+    background-color: #fbfbfd;
+    border-color: #fbfbfd;
+    color: black;
+}
+.grid-four img{
+    margin-top: 10em;
+}
+.grid-four span{
+    position: absolute;
+    right: 10em;
+    top: 3em;
+    text-align: center;
+}  
+.grid-five{
+    background-color: #fbfbfd;
+    border-color: #fbfbfd;
+    color: black;
+}
+.grid-five img{
+    margin-top: 12em;
+    height: 20em;
+}
+.grid-five span{
+    position: absolute;
+    right: 10em;
+    top: 3em;
+    text-align: center;
+}  
+.grid-six{
+    background-color: #fbfbfd;
+    border-color: #fbfbfd;
+    color: black;
+}
+.grid-six img{
+    margin-top: 12em;
+    height: 20em;
+}
+.grid-six span{
+    position: absolute;
+    right: 10em;
+    top: 3em;
+    text-align: center;
+}  
+.grid-one{
+background-color: black;
+    border-color: black;
+    color:white;
+}
+.grid-one img{
+    margin-top: 9em;
+   /* height: 22em; */
+   margin-left: 9em;
+}
+.grid-one span{
+    position: absolute;
+    right: 10em;
+    top: 2em;
+    text-align: center;
+}  
+footer{
+    background-color: #f5f5f7;
+    color: gray;
+    padding-top: 2em;
+}
+.footer-parent{
+    margin: 0px 12em;
+    border: 1.5px solid lightgray;
+    padding-bottom: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.footer-child-one{
+    border: 1px solid lightgray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 20px;
+}
+
+.footer-child-one p{
+font-size: 13px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+word-spacing: 1px;
+}
+
+.footer-para{
+    word-spacing: 2px;
+    padding-top: 12px;
+}
+
+
+.footer-parent-links{
+    display: flex;
+    
+}
+.footer-child-links{
+    padding: 10px 30px;
+}
+.footer-child-links p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* font-weight: bold; */
+    color: rgb(37, 36, 36);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.footer-child-links li:hover{
+    text-decoration: underline;
+}
+.footer-child-links li{
+    list-style: none;
+        color: grey;
+    /* font-size: 15px;    */
+    font-size: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-spacing: 1px;
+    padding: 5px 0px;
+}
+.footer-para-end span{
+    text-decoration: underline;
+    color:#0367cc;
+}
+.footer-para-end p{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-spacing: 1px;
+    color: gray;    
+}
+
+.footer-copyright{
+    display: flex;
+    margin: 10px 13em;
+    justify-content: space-between;
+}
+.para-copyright p{
+    font-size: 13px;
+    padding: 10px 0px;
+    color: rgb(43, 42, 42);
+
+}
+.para-copyright span:hover {
+    text-decoration: underline;
+}
+.two-para p:hover{
+    text-decoration: underline;
+}
